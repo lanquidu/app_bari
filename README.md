@@ -5,3 +5,5 @@ fecha de nacimiento y se obtiene una respuesta con los días de vida hasta la fe
 arrojará un error indicando la fecha invalida.
 Se diseño con JavaScript, CSS, HTML y Node.js, template ejs, express.
 Si desean clonarlo, aquí tienen el archivo package Json para crear las dependencias, solo hacer en la terminal npm install.
+
+Para ver la app en ejecución invito a darle click a este link, se desplegó desde una plataforma Heroku https://bariapp1.herokuapp.com/.  
