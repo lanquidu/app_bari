@@ -19,8 +19,6 @@
         let h = (g-j)
         z= Math.floor (h/(1000*60*60*24))
 
-    
-
         if(j > g) {
             res.render ('error')
         }else{ 
