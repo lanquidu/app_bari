@@ -3,6 +3,8 @@
     const path = require("path");
     const app = express();
 
+    const port = process.env.PORT || 3000
+
     app.use(bodyParser.urlencoded({extended:false}));
     app.set("view engine", "ejs");
     app.use(express.static(path.join(__dirname, "public")));
@@ -31,6 +33,6 @@
 
     });
 
-    app.listen(3000, () =>{
+    app.listen(port, () =>{
         console.log("server started on port 3000");
     });
