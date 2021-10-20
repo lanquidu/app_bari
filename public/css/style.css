@@ -42,6 +42,7 @@ h1 {
 }
 
 .form-control button {
+    display: block;
     border-radius: 12px;
     cursor: pointer;
     border: 2px solid #192965;
@@ -49,9 +50,6 @@ h1 {
     background: #192965;
     font-weight: 900;
     padding: 4px;
-    position: absolute;
-    left: 0;
-    right: 0;
     margin: 0 auto;
 }
 
@@ -88,3 +86,4 @@ input[type= "number"]::-webkit-outer-spin-button {
         width: 100%;
     }
 }
+/* ben-white-83tkHLPgg2Q-unsplash 3 */
